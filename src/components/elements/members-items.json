@@ -1,0 +1,58 @@
+{
+  "collectionName": "components_elements_members_items",
+  "info": {
+    "displayName": "members-items"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "designation": {
+      "type": "string"
+    },
+    "department": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "joinDate": {
+      "type": "string"
+    },
+    "experience": {
+      "type": "string"
+    },
+    "photo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "shortBio": {
+      "type": "text"
+    },
+    "bio": {
+      "type": "text"
+    },
+    "skills": {
+      "type": "component",
+      "component": "elements.skills",
+      "repeatable": true
+    },
+    "socialLinks": {
+      "type": "json"
+    },
+    "projects": {
+      "type": "integer"
+    },
+    "rating": {
+      "type": "decimal"
+    }
+  },
+  "config": {}
+}

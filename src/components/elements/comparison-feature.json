@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_elements_comparison_features",
+  "info": {
+    "displayName": "comparison feature"
+  },
+  "options": {},
+  "attributes": {
+    "feature_name": {
+      "type": "string"
+    },
+    "icon_name": {
+      "type": "string"
+    },
+    "basic_value": {
+      "type": "string"
+    },
+    "pro_value": {
+      "type": "string"
+    },
+    "enterprise_value": {
+      "type": "string"
+    },
+    "display_order": {
+      "type": "integer"
+    }
+  },
+  "config": {}
+}

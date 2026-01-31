@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_sections_portfolio_showcases",
+  "info": {
+    "displayName": "Portfolio Showcase"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "projects": {
+      "type": "component",
+      "component": "elements.projects-items",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

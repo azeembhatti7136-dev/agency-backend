@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_elements_stats_componens",
+  "info": {
+    "displayName": "Stats Component"
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    },
+    "suffix": {
+      "type": "string"
+    },
+    "color": {
+      "type": "string"
+    },
+    "bg": {
+      "type": "string"
+    },
+    "icon_name": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

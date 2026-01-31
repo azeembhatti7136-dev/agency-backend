@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_elements_payment_methods",
+  "info": {
+    "displayName": "payment methods"
+  },
+  "options": {},
+  "attributes": {
+    "method_name": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

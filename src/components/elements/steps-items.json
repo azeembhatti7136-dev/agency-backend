@@ -1,0 +1,58 @@
+{
+  "collectionName": "components_elements_steps_items",
+  "info": {
+    "displayName": "steps-items"
+  },
+  "options": {},
+  "attributes": {
+    "step_number": {
+      "type": "integer"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "icon": {
+      "type": "component",
+      "component": "elements.icon",
+      "repeatable": false
+    },
+    "label": {
+      "type": "string"
+    },
+    "week": {
+      "type": "string"
+    },
+    "duration": {
+      "type": "string"
+    },
+    "tags": {
+      "type": "json"
+    },
+    "milestones": {
+      "type": "json"
+    },
+    "color": {
+      "type": "string"
+    },
+    "is_active": {
+      "type": "boolean"
+    },
+    "order": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

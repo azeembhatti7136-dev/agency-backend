@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_elements_plans_items",
+  "info": {
+    "displayName": "plans-items"
+  },
+  "options": {},
+  "attributes": {
+    "plan_name": {
+      "type": "string"
+    },
+    "price": {
+      "type": "string"
+    },
+    "features": {
+      "type": "component",
+      "component": "elements.features",
+      "repeatable": true
+    },
+    "is_popular": {
+      "type": "boolean"
+    },
+    "display_order": {
+      "type": "integer"
+    },
+    "cta_button_text": {
+      "type": "string"
+    },
+    "trial_available": {
+      "type": "boolean"
+    }
+  },
+  "config": {}
+}

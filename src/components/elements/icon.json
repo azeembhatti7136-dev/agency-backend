@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_elements_icons",
+  "info": {
+    "displayName": "icon"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "enumeration",
+      "enum": [
+        "Search",
+        "FileText",
+        "Lightbulb",
+        "Palette",
+        "Code",
+        "TestTube",
+        "Server",
+        "BarChart",
+        "Target",
+        "Users",
+        "Shield",
+        "Award",
+        "TrendingUp",
+        "Calendar",
+        "Clock",
+        "Rocket",
+        "CheckCircle",
+        "Zap",
+        "Globe",
+        "Cpu",
+        "Layers"
+      ]
+    }
+  },
+  "config": {}
+}

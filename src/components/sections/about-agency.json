@@ -1,0 +1,59 @@
+{
+  "collectionName": "components_sections_about_agencies",
+  "info": {
+    "displayName": "About Agency"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "experience_years": {
+      "type": "integer"
+    },
+    "side_image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "badge_text": {
+      "type": "string"
+    },
+    "tagline": {
+      "type": "string"
+    },
+    "primary_cta_text": {
+      "type": "string"
+    },
+    "primary_cta_link": {
+      "type": "string"
+    },
+    "show_stats": {
+      "type": "boolean",
+      "default": true
+    },
+    "show_features": {
+      "type": "boolean",
+      "default": true
+    },
+    "Features": {
+      "type": "component",
+      "component": "elements.features-component",
+      "repeatable": true
+    },
+    "stats": {
+      "type": "component",
+      "component": "elements.stats-componen",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

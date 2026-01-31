@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_sections_stats_counters",
+  "info": {
+    "displayName": "Stats Counter"
+  },
+  "options": {},
+  "attributes": {
+    "stats": {
+      "type": "component",
+      "component": "elements.stat-item",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

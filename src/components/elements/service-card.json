@@ -1,0 +1,61 @@
+{
+  "collectionName": "components_elements_service_cards",
+  "info": {
+    "displayName": "service-card"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "icon_type": {
+      "type": "enumeration",
+      "enum": [
+        "rocket",
+        "code",
+        "palette",
+        "bar-chart",
+        "users",
+        "shield",
+        "zap",
+        "globe",
+        "target",
+        "trending-up"
+      ]
+    },
+    "service": {
+      "type": "enumeration",
+      "enum": [
+        "web_development",
+        "mobile_apps",
+        "ui_ux_design",
+        "digital_marketing",
+        "consulting",
+        "cybersecurity",
+        "cloud_services",
+        "ecommerce_solutions"
+      ]
+    },
+    "gradient_start_color": {
+      "type": "string"
+    },
+    "gradient_end_color": {
+      "type": "string"
+    },
+    "features": {
+      "type": "component",
+      "component": "elements.service-feature-item",
+      "repeatable": true
+    },
+    "learn_more_content": {
+      "type": "blocks"
+    },
+    "learn_more_button_text": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

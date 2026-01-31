@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_sections_why_choose_uses",
+  "info": {
+    "displayName": "Why Choose Us"
+  },
+  "options": {},
+  "attributes": {
+    "slug": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "subHeading": {
+      "type": "string"
+    },
+    "benefits": {
+      "type": "component",
+      "component": "elements.benefits-items",
+      "repeatable": true
+    },
+    "stats": {
+      "type": "component",
+      "component": "elements.stats",
+      "repeatable": true
+    },
+    "ctaText": {
+      "type": "string"
+    },
+    "backgroundImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "isActive": {
+      "type": "boolean"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_elements_faqs",
+  "info": {
+    "displayName": "faq"
+  },
+  "options": {},
+  "attributes": {
+    "question": {
+      "type": "string"
+    },
+    "answer": {
+      "type": "text"
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "pricing",
+        "general",
+        "support"
+      ]
+    },
+    "display_order": {
+      "type": "integer"
+    }
+  },
+  "config": {}
+}

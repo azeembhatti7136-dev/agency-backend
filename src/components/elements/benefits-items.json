@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_elements_benefits_items",
+  "info": {
+    "displayName": "benefits-items"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "iconName": {
+      "type": "string"
+    },
+    "priority": {
+      "type": "integer"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_elements_features",
+  "info": {
+    "displayName": "features"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "included": {
+      "type": "boolean"
+    }
+  },
+  "config": {}
+}

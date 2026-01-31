@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_sections_work_processes",
+  "info": {
+    "displayName": "Work Process"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "header": {
+      "type": "component",
+      "component": "elements.header-section",
+      "repeatable": false
+    },
+    "steps": {
+      "type": "component",
+      "component": "elements.steps-items",
+      "repeatable": true
+    },
+    "configuration": {
+      "type": "component",
+      "component": "elements.configuration",
+      "repeatable": false
+    },
+    "call_to_action": {
+      "type": "component",
+      "component": "elements.call-to-action",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

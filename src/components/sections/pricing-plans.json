@@ -1,0 +1,49 @@
+{
+  "collectionName": "components_sections_pricing_plans",
+  "info": {
+    "displayName": "Pricing Plans"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "yearly_discount": {
+      "type": "integer"
+    },
+    "money_back_days": {
+      "type": "integer"
+    },
+    "trial_days": {
+      "type": "integer"
+    },
+    "cta_title": {
+      "type": "string"
+    },
+    "cta_description": {
+      "type": "text"
+    },
+    "plans": {
+      "type": "component",
+      "component": "elements.plans-items",
+      "repeatable": true
+    },
+    "faq": {
+      "type": "component",
+      "component": "elements.faq",
+      "repeatable": true
+    },
+    "payment": {
+      "type": "component",
+      "component": "elements.payment-methods",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

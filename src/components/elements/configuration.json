@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_elements_configurations",
+  "info": {
+    "displayName": "Configuration"
+  },
+  "options": {},
+  "attributes": {
+    "enable_auto_rotate": {
+      "type": "boolean"
+    },
+    "auto_rotate_interval": {
+      "type": "string"
+    },
+    "timeline_colors": {
+      "type": "json"
+    },
+    "show_progress_bar": {
+      "type": "boolean"
+    },
+    "show_stats": {
+      "type": "boolean"
+    },
+    "show_cta": {
+      "type": "boolean"
+    }
+  },
+  "config": {}
+}

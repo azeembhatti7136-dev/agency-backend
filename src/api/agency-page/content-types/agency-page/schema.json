@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "agency_pages",
+  "info": {
+    "singularName": "agency-page",
+    "pluralName": "agency-pages",
+    "displayName": "Agency Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sections": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.work-process",
+        "sections.why-choose-us",
+        "sections.video-intro",
+        "sections.testimonials",
+        "sections.team-members",
+        "sections.stats-counter",
+        "sections.services-section",
+        "sections.pricing-plans",
+        "sections.portfolio-showcase",
+        "sections.newsletter-and-contact-info",
+        "sections.hero-section",
+        "sections.faq",
+        "sections.cta-banner-call-to-action",
+        "sections.core-services",
+        "sections.client-logos",
+        "sections.about-agency"
+      ]
+    }
+  }
+}

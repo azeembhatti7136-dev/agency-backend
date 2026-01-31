@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_elements_features_components",
+  "info": {
+    "displayName": "Features Component"
+  },
+  "options": {},
+  "attributes": {
+    "icon_name": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    },
+    "color": {
+      "type": "string"
+    },
+    "bg_color": {
+      "type": "string"
+    },
+    "text_color": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

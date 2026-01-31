@@ -1,0 +1,68 @@
+{
+  "collectionName": "components_elements_projects_items",
+  "info": {
+    "displayName": "projects-items"
+  },
+  "options": {},
+  "attributes": {
+    "project_name": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "technologies": {
+      "type": "json"
+    },
+    "client": {
+      "type": "string"
+    },
+    "project_status": {
+      "type": "enumeration",
+      "enum": [
+        "completed",
+        "in-progress",
+        "upcoming"
+      ]
+    },
+    "featured": {
+      "type": "boolean"
+    },
+    "github_link": {
+      "type": "string"
+    },
+    "live_demo": {
+      "type": "string"
+    },
+    "tags": {
+      "type": "json"
+    },
+    "date": {
+      "type": "date"
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "Web",
+        "Mobile App",
+        "Design",
+        "Branding",
+        "Ecommerce"
+      ]
+    }
+  },
+  "config": {}
+}

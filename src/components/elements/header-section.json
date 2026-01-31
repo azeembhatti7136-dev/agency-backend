@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_elements_header_sections",
+  "info": {
+    "displayName": "Header Section"
+  },
+  "options": {},
+  "attributes": {
+    "header_badge": {
+      "type": "string"
+    },
+    "header_title": {
+      "type": "string"
+    },
+    "header_description": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

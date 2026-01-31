@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_sections_cta_banner_call_to_action_s",
+  "info": {
+    "displayName": "CTA Banner (Call to Action)"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "button_text": {
+      "type": "string"
+    },
+    "background_color": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

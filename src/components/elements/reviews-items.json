@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_elements_reviews_items",
+  "info": {
+    "displayName": "reviews-items"
+  },
+  "options": {},
+  "attributes": {
+    "client_name": {
+      "type": "string"
+    },
+    "feedback": {
+      "type": "text"
+    },
+    "rating": {
+      "type": "decimal"
+    },
+    "avatar": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}
