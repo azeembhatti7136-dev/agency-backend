@@ -4,4 +4,4 @@ export default ({ env }) => ({
       jwtSecret: env('JWT_SECRET'),
     },
   },
-});export default () => ({});
+});
